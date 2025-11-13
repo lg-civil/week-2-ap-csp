@@ -17,3 +17,15 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+q1 = input("what state do you live in? ")
+q2 = input("what is your favorite animal? ")
+name = q1  +  q2
+print("You should name your soda brand, The " , name )
+
+# or
+
+q1 = input("what state do you live in? ")
+q2 = input("what is your favorite animal? ")
+name = f'You should name your soda brand, The {q1} {q2}. '
+print(name)
